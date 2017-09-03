@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">No:19_Service</string>
+    <string name="service_ContentTitle">模擬 Download File</string>
+    <string name="service_ContentText">模擬 File is dowinloading...</string>
+</resources>

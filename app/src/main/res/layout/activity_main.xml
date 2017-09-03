@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tw.com.frankchang.houli.classno_19_service.MainActivity"
+    android:orientation="vertical"
+    android:padding="@dimen/xml_padding">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="啟動 Service"
+        android:layout_marginBottom="@dimen/xml_layout_marginBottom"
+        android:onClick="startOnClick"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止 Service"
+        android:layout_marginBottom="@dimen/xml_layout_marginBottom"
+        android:onClick="stopOnClick"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bind Service"
+        android:layout_marginBottom="@dimen/xml_layout_marginBottom"
+        android:onClick="bindOnClick"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UnBind Service"
+        android:layout_marginBottom="@dimen/xml_layout_marginBottom"
+        android:onClick="unBindOnClick"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download File"
+        android:layout_marginBottom="@dimen/xml_layout_marginBottom"
+        android:onClick="downloadFileOnClick"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Music"
+        android:layout_marginBottom="@dimen/xml_layout_marginBottom"
+        android:onClick="playMusicOnClick"/>
+</LinearLayout>
